@@ -1,0 +1,590 @@
+@media (max-width: 1500px) {
+    .container {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .container {
+        margin: 0 50px;
+    }
+
+    .persone {
+        &_woman {
+            left: 70%;
+        }
+        &_kids {
+            left: 48%;
+        }
+        &_pregnant{
+            left: 80%;
+        }
+    }
+}
+
+@media (max-width: 1370px) {
+    .promo {
+        min-height: 570px;
+        &__wrapper {
+            min-height: 400px;
+            max-width: 50%;
+        }
+        &__header {
+            line-height: 90px;
+        }
+        &__img-notes {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .persone {
+        &_kids {
+            left: 57%;
+        }
+        &_pregnant{
+            left: 84%;
+        }
+    }
+    .intronote {
+        .note {
+            &__about {
+                margin-left: 20px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1310px) {
+    .promo {
+        &__wrapper {
+            min-height: 380px;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .promo {
+        &__wrapper {
+            min-height: 340px;
+        }
+        &__header {
+            font-size: 64px;
+            line-height: 80px;
+        }
+        &__descr {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+
+    .persone {
+        padding: 8px 18px;
+        &_woman {
+            top: 40px;
+        }
+        &_kids {
+            top: 98%;
+        }
+        &_pregnant{
+            top: 98%;
+        }
+    }
+    .product {
+        &__item {
+            &-bg {
+                padding: 10%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .promo {
+        &__wrapper {
+            min-height: 340px;
+        }
+        &__header {
+            font-size: 60px;
+            line-height: 70px;
+        }
+        &__descr {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+
+    .intronote {
+        .bg {
+            top: 50px;
+        }
+        .note {
+            &__header {
+                margin: 8px 0 20px 0;
+                line-height: 60px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .main-screen {
+        padding-bottom: 100px;
+    }
+
+    .navigation {
+        width: 330px;
+        &__list-link {
+            font-size: 16px;
+        }
+    }
+
+    .promo {
+        min-height: 490px;
+        &__header {
+            font-size: 54px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+    }
+
+    .shop__btn {
+        width: 160px;
+        height: 56px;
+        font-size: 16px;
+    }
+
+    .product {
+        &__item {
+            &-btn {
+                width: 122px;
+                height: 53px;
+                div {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    .intronote {
+        padding: 210px 0 100px 0;
+        .bg {
+            top: 90px;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+        .note {
+            &__img {
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .main-screen {
+        padding-bottom: 50px;
+    }
+
+    .promo {
+        margin-top: 0px;
+        min-height: 460px;
+        &__wrapper {
+            min-height: 300px;
+        }
+        &__header {
+            font-size: 46px;
+            line-height: 56px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    .persone {
+        padding: 7px 15px;
+        font-size: 14px;
+        &_woman {
+            top: 60px;
+        }
+        &_kids {
+            top: 94%;
+        }
+        &_pregnant{
+            top: 94%;
+        }
+    }
+
+    .shop__btn {
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .product {
+        padding-top: 80px;
+        &__slider {
+            &-direction {
+                width: 45px;
+                height: 45px;
+            }
+        }
+        &__item {
+            &-descr {
+                margin-top: 15px;
+                font-size: 20px;
+            }
+            &-wrapper {
+                margin-top: 10px;
+            }
+            &-btn {
+            width: 110px;
+            height: 49px;
+                div {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .intronote {
+        padding-top: 140px;
+        .bg {
+            top: 40px;
+            max-width: 330px;
+        }
+        .note {
+            &__img {
+                max-width: 330px;
+            }
+            &__header {
+                font-size: 42px;
+                line-height: 52px;
+            }
+            &__descr {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        width: 300px;
+        &__list-link {
+            font-size: 14px;
+        }
+    }
+
+    .promo {
+        min-height: 400px;
+        &__wrapper {
+            min-height: 280px;
+        }
+        &__header {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    .shop__btn {
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .persone {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    
+    .product {
+        &__item {
+            &-wrapper {
+                flex-wrap: wrap;
+            }
+            &-btn {
+                margin-top: 10px;
+                width: 100%;
+                div {
+                    font-size: 16px;
+                }
+            }
+        }
+        &__dot {
+        width: 12px;
+        height: 12px;
+            &_active {
+                width: 21px;
+                height: 21px;
+            }
+        }
+    }
+
+    .intronote {
+        padding-top: 110px;
+        .bg {
+            max-width: 280px;
+        }
+        .note {
+            &__header {
+                font-size: 36px;
+                line-height: 46px;
+            }
+            &__descr {
+                font-size: 14px;
+                line-height: 22px;
+            }
+            &__img {
+                max-width: 280px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 650px) {
+    .navigation {
+        width: 260px;
+    }
+
+    .header {
+        &__bag > svg {
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+
+    .promo {
+        min-height: 370px;
+        &__wrapper {
+            min-height: 240px;
+        }
+        &__header {
+            font-size: 34px;
+            line-height: 40px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+
+    .shop__btn {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .persone {
+        padding: 3px 7px;
+        font-size: 12px;
+        &_woman {
+            top: 60px;
+        }
+        &_kids {
+            top: 94%;
+        }
+        &_pregnant{
+            top: 94%;
+        }
+    }
+
+    .intronote {
+        padding-top: 90px;
+        .bg {
+            max-width: 230px;
+        }
+        .note {
+            &__header {
+                font-size: 30px;
+                line-height: 36px;
+            }
+            &__descr {
+                font-size: 12px;
+                line-height: 20px;
+            }
+            &__img {
+                max-width: 230px;
+            }
+            &__persone {
+                width: 95px;
+                height: 35px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .main-screen {
+        padding: 25px 0 0 0;
+    }
+
+    .container {
+        margin: 0 30px;
+    }
+
+    .header {
+        &__bag > svg {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .navigation {
+        width: 210px;
+    }
+
+    .promo {
+        justify-content: center;
+        min-height: 320px;
+        &__img {
+            display: none;
+        }
+         &__wrapper {
+            min-height: 200px;
+            max-width: 380px;
+        }
+        &__header {
+            font-size: 34px;
+            line-height: 40px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+
+    .product {
+        &__item {
+            &-descr {
+                font-size: 16px;
+            }
+            &-bg {
+                padding: 7%;
+            }
+        }
+    }
+
+    .intronote {
+        padding: 140px 0 100px 0;
+        .bg {
+            max-width: 220px;
+            top: 150px;
+        }
+        .note {
+            &__about {
+                margin-left: 0;
+                width: 80%;
+            }
+            &__wrapper {
+                justify-content: center;
+            }
+            &__header {
+                font-size: 40px;
+                line-height: 46px;
+            }
+            &__descr {
+                padding-bottom: 10px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            &__img {
+                display: none;
+            }
+            &__persone {
+                width: 95px;
+                height: 35px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .main-screen {
+        padding: 15px 0 0 0;
+    }
+
+    .container {
+        margin: 0 15px;
+    }
+
+    .navigation {
+        width: 190px;
+        &__list-link{
+            font-size: 13px;
+        }
+    }
+
+    .promo {
+        min-height: 550px;
+        &__wrapper {
+            min-height: 420px;
+        }
+        &__header {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        &__descr {
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+    
+    .shop__btn {
+        width: 170px;
+        height: 65px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .product {
+        &__slider {
+            margin-bottom: -20px;
+        }
+        &__list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            margin-top: 40px;
+            flex: none;
+            max-width: 100%;
+            &-descr {
+                margin-top: 25px;
+                font-size: 26px;
+            }
+            &-wrapper {
+                flex-wrap: nowrap;
+                padding-bottom: 20px;
+                border-bottom: solid 3px #F5F5F5;
+            }
+            &-btn {
+                width: 163px;
+                height: 62px;
+                div {
+                    font-size: 18px;
+                }
+            }
+            &-bg {
+                padding: 10%;
+            }
+        }
+    }
+}
